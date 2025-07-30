@@ -51,10 +51,10 @@ function changeTheme() {
     let srcTheme;
     if (currentTheme === 'light-theme') {
         document.body.className = 'dark-theme';
-        srcTheme = "/images/tolighttheme.svg"
+        srcTheme = "./images/tolighttheme.svg"
     } else {
         document.body.className = 'light-theme';
-        srcTheme = "/images/todarktheme.svg"
+        srcTheme = "./images/todarktheme.svg"
     }
     imgTheme.src = srcTheme;
 }
