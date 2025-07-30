@@ -47,11 +47,16 @@ function editTask(event) {
 
 function changeTheme() {
     const currentTheme = document.body.className;
+    const imgTheme = document.getElementById("theme-img")
+    let srcTheme;
     if (currentTheme === 'light-theme') {
         document.body.className = 'dark-theme';
+        srcTheme = "/images/tolighttheme.svg"
     } else {
         document.body.className = 'light-theme';
+        srcTheme = "/images/todarktheme.svg"
     }
+    imgTheme.src = srcTheme;
 }
 
 function isDone(event) {

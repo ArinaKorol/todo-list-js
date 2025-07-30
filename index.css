@@ -20,6 +20,8 @@ body.dark-theme {
     display: flex;
     justify-content: center;
     align-self: flex-end;
+    height: 50px;
+    width: 60px;
 }
 
 header{
