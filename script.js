@@ -96,8 +96,7 @@ function createTaskHTML(text) {
         <li class="item-task">
             <div class="item-task-text">
                 <label class="item-task-label">
-                    <input type="checkbox">
-                    
+                    <input type="checkbox" onclick="isDone(event)">
                 </label>
                 <p>${text}</p>
             </div>
