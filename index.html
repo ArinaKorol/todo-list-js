@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>JS TODO LIST</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>TODO LIST</h1>
+        <div>
+            <button class="theme" id="theme-toggle"><img src="./images/theme.svg" alt="change theme"></button>  
+        </div>
+    </header>
+
+    <main>
+        <section class="search">
+            <img src="./images/search.svg" alt="search">
+            <input placeholder="Search node..." id="search-input" type="text" >
+           
+        </section>
+        <section>
+            <div id="result-of-search"></div>
+        </section>
+        <div class="todos" id="todos-block">
+            <p id="message" class="message">You don't have any tasks at the moment.</p>
+            <ul id="taskList"></ul>
+        </div>
+        <button id="add-btn" class="btn-new-task"><img src="./images/add.svg" alt="+"></button>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
